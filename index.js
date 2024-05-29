@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 let todos = [];
 let condition = true;
-while (condition) {
+while (true) {
     let addTask = await inquirer.prompt([
         {
             name: "todo",
